@@ -1,4 +1,5 @@
 .promo {
+    position: relative;
     min-height: 100vh;
     padding: 206px 30px 236px 50px;
     background: url(../img/main_bg.jpg) center (center/cover) no-repeat;
@@ -42,5 +43,55 @@
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         }
     }
-}
+    &__social {
+        position: absolute;
+        top: 400px;
+        left: -120px;
+        display: flex;
+        align-items: center;
+        transform: rotate(-90deg);
+        &__text{
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+        }
+        &__line{
+            margin: 0 15px;
+            width: 70px;
+            height: 2px;
+            background: white;
+        }
+        &__item{
+            margin-right: 15px;
+            img {
+                width: 20px;
+                height: 20px;
+                }
+            }
+        }
+    &__hamburger {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 36px;
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-end;
+        cursor: pointer;
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: white;
+            }
+        span.long {
+            width: 36px;
+        }
+        }
+    }
+
+
 
