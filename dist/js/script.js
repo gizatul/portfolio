@@ -20,3 +20,10 @@ window.addEventListener("keydown", (e) => {
                 menu.classList.remove('active');
     }
 });
+
+const counters = document.querySelectorAll('.skills__scale-value'),
+      lines = document.querySelectorAll('.skills__scale-line span');
+
+counters.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});

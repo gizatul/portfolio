@@ -44,29 +44,18 @@
         &-value {
             margin-top: 8px;
         }
-        &-overlay {
+        &-line {
             margin-top: 27px;
-            width: 100%;
+            width: 350px;
             height: 14px;
-            background: #E8E4DE;
+            background-color: #E8E4DE;
             border-radius: 4px;
-        }
-        &-filled {
-            width: 100%;
-            height: 100%;
-            background: $main-color;
-            border-radius: 4px;
-            &_85 {
-                width: 85%; 
-            }
-            &_75 {
-                width: 75%; 
-            }
-            &_90 {
-                width: 90%; 
-            }
-            &_95 {
-                width: 95%; 
+            grid-column: 1 / 3;
+            span {
+                display: block;
+                height: 100%;
+                background-color: $main-color;
+                border-radius: 4px;
             }
         }
     }
