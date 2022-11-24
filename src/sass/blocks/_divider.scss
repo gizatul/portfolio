@@ -4,5 +4,8 @@
     background: $main-color;
     &_center {
         margin: 25px auto 0 auto;
+        &_mt31 {
+            margin: 31px auto 0 auto;
+        }
     }
 }
