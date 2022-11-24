@@ -378,7 +378,7 @@
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="about__photo">
-                    <img src="/img/main_photo.JPG" alt="photo">
+                    <img src="/img/main_photo2.JPG" alt="photo">
                 </div>
                 <div class="contacts__body">
                     <h2 class="title title_fz16 contacts__title">Контакты</h2>
@@ -393,11 +393,11 @@
                     <div class="title title_fz14 title_fz14_mt20">Или оставьте ваши данные и я сам вам напишу:</div>
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="text">
+                            <input required name="email" id="email" type="text">
                             <label for="email">Ваша почта</label>
                         </div>
 
@@ -405,7 +405,14 @@
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <button class="contacts__btn">Отправить сообщение</button>
+                        <div class="contacts__trigger">
+                            <button class="contacts__btn">Отправить сообщение</button>                      
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/privacy.html" target="_blank">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+
                     </form>
                 </div>
             </div>
