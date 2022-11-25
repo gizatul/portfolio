@@ -1,11 +1,8 @@
 .promo {
     position: relative;
     min-height: 100vh;
-    padding: 206px 30px 236px 50px;
-    background: url(../img/main_bg.jpg) center (center/cover) no-repeat;
-    // &_harmburger {
-    //     height: 21px;
-    //     width: 36px;
+    padding: 206px 0px 236px 0px;
+    background: url(../img/main_bg.jpg) no-repeat 65%/cover;
     &__subtitle {
         color: white;
         @include before_circle;
@@ -46,7 +43,7 @@
     &__social {
         position: absolute;
         top: 400px;
-        left: -120px;
+        left: -155px;
         display: flex;
         align-items: center;
         transform: rotate(-90deg);
