@@ -18,7 +18,10 @@
     }
     &__social {
         margin-top: 20px;
+        display: flex;
         &-item {
+            width: 30px;
+            height: 30px;
             margin-right: 25px;
             img {
             max-height: 30px;
